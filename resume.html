@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8"/>
+        <title>Order app</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+
+    </head>
+    <body>
+    <body onload="resizeContentBackground()">
+        <div id="navBar">
+            <a href="index.html" class="navItem">about</a>
+            <a href="resume.html" class="navItem currentPageTab">resume</a>
+            <a href="links.html" class="navItem">project links</a>
+            <a href="contact.html" class="navItem">contact info</a>
+        </div>
+
+        <div id="fullPageDiv">
+
+            <div id="outerFrameDiv">
+
+                <div id="innerFrameDiv">
+                  <div id="pageHeadersDiv">
+                    <h1 class="name">Jonathan Stern</h1>
+                    <h2 class="shortBio">Fullstack Web developer located in Brooklyn, New York</h2>
+                  </div>
+                  <div id="mainPageContentsDiv">
+                    <h2 class="contentsHeader">Resume</h2>
+                    <p class="aligned-center">This is my old resume from when I was an attorney. It needs to be completely rewritten:</p>
+                    <div id="resumeDiv">
+                      <iframe id="resumeFrame" src='js_resume.pdf#view=fitH' type="pdf" allow-scripts="yes" object-fit="fill">
+                    </div>
+
+
+                  </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <script src="main.js"></script>
+    </body>
+
+</html>
